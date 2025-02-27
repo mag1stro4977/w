@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    width: 57;
+    height: 18;
+    top: 16px;
+    left: 839px;
+    opacity: 0.7;
+    color: #36536B;
+}
+
+.mobile{display: none;}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-btn{
+    background-color: #BA4270;
+    border-radius: 24px;
+    padding: 15px 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+
+
+.sct-h1{
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -0.55px;
+    color: #36536B;
+}
+
+.sct-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sct-2-h2{
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 48px;
+    color: #36536B;
+}
+
+.sct-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p{
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 15px;
+    color: #36536B;
+    width: 445;
+    height: 84;
+    top: 80px;
+}
+
+.h3{
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.14px;
+    margin-top: 32px;
+    color: #36536B;
+}
+
+.pf{
+    text-align: center;
+}
+
+.sct-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #1B262F;
+    padding: 31px 0px;
+}
+
+footer ul li a {
+    color: white;
+}
+
+.ftr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sct{
+    margin: 60px 0px;
+}
+
+
+@media (max-width:768px){
+
+    .sct-div{
+        flex-direction: column-reverse;
+    }
+    .sct-2{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:375px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+
+    .sct-3{
+        flex-direction: column;
+    }
+
+    .ftr{
+        flex-direction: column;
+    }
+
+    .ul{
+        flex-direction: column;
+    }
+
+    .pf{
+        margin-top: 48px;
+    }
+
+    .icn{
+        margin-top: 40px;
+    }
+}
